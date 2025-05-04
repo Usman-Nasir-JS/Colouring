@@ -1,0 +1,91 @@
+h1{
+    text-align: center;
+}
+
+#set-Buttons{
+    margin: 30px;
+}
+
+.color {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0px;
+}
+
+.color div {
+  width: 10%;
+  height: 50px;
+  border-radius: 5px;
+  transition-duration: 0.5s;
+  border: 1.5px dashed black;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+ cursor: pointer;
+}
+
+.color div:hover {
+  transform: scale(1.1);
+}
+
+.boxes{
+  position: relative;
+}
+
+.boxes div{
+  height: 120px;
+  width: 120px;
+  border: 2px solid gray;
+  position: absolute;
+}
+
+.one{
+  left: 30px;
+  top: 10px;
+}
+
+.two{
+  left: 298px;
+  top: 10px;
+}
+
+.three{
+  left: 570px;
+  top: 10px;
+}
+
+.four{
+  left: 840px;
+  top: 10px;
+}
+
+.five{
+  left: 1110px;
+  top: 10px;
+}
+
+.six{
+  left: 30px;
+  top: 200px;
+}
+
+.seven{
+  left: 298px;
+  top: 200px;
+}
+
+.eight{
+  left: 570px;
+  top: 200px;
+}
+
+.nine{
+  left: 840px;
+  top: 200px;
+}
+
+.ten{
+  left: 1110px;
+  top: 200px;
+}
+

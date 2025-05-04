@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colouring</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1><u>🌟...Select your favourite color & Click the any empty box...🌟</u></h1>
+
+    <!-- Color list start -->
+
+    <div id="set-Buttons">
+
+        <div class="color">
+            <div onclick="selectColor(this, 'red')" style="background-color: red;">Red</div>
+            <div onclick="selectColor(this, 'yellow')" style="background-color: yellow;">yellow</div>
+            <div onclick="selectColor(this, 'green')" style="background-color: green;">Green</div>
+            <div onclick="selectColor(this, 'blue')" style="background-color: blue;">Blue</div>
+            <div onclick="selectColor(this, 'silver')" style="background-color: silver;">Silver</div>
+        </div>
+    
+        <div class="color">
+            <div onclick="selectColor(this, 'brown')" style="background-color: Brown;">Brown</div>
+            <div onclick="selectColor(this, '#a619f8')" style="background-color: #a619f8;">Purple</div>
+            <div onclick="selectColor(this, '#00f2fe')" style="background-color: #00f2fe;">C-Green</div>
+            <div onclick="selectColor(this, 'deeppink')" style="background-color: deeppink;">DeepPink</div>
+            <div onclick="selectColor(this, 'black')" style="background-color : black; color: white; border: 1.5px dashed white;">Black</div>
+        </div>
+
+    </div>
+
+    <!-- Color list end -->
+
+    <!-- Box list start -->
+
+    <div class="boxes">
+
+        <div onclick="changeColor(this)" class="one"></div>
+        <div onclick="changeColor(this)" class="two"></div>
+        <div onclick="changeColor(this)" class="three"></div>
+        <div onclick="changeColor(this)" class="four"></div>
+        <div onclick="changeColor(this)" class="five"></div>
+        <div onclick="changeColor(this)" class="six"></div>
+        <div onclick="changeColor(this)" class="seven"></div>
+        <div onclick="changeColor(this)" class="eight"></div>
+        <div onclick="changeColor(this)" class="nine"></div>
+        <div onclick="changeColor(this)" class="ten"></div>
+
+    </div>    
+
+    <!-- Box list end -->
+
+    <script src="app.js"></script>
+</body>
+</html>
